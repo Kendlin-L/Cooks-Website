@@ -7,9 +7,7 @@ export const Sidebar = ({isOpen,toggle}) =>(
     <X></X>
 </Icon>
 <Smenu>
-    <Slink to = "about" onClick={toggle}>
-        ABOUT
-    </Slink>
+   
     <Slink to = "music" onClick={toggle}>
         MUSIC
     </Slink>

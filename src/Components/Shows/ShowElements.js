@@ -44,22 +44,23 @@ export const Header1 = styled.div`
 content:"CATCH US AT A SHOW";
 visibility:visible;
 }
-
+display:flex;
 font-family: 'Montserrat', sans-serif;
 color: white;
-position: relative;
+position: absolute;
 font-size: 82px;
 top:100px;
 font-weight:1000;
-left: 190px;
+left: 400px;
 @media screen and (max-width: 769px){
         
    font-size: 22px;
-   left:55px;
+   left:85px;
    width:250px;
 
      
   }
+  
 `; 
 export const GigDate = styled.div`
 display: inline-block;
@@ -92,6 +93,7 @@ box-sizing: border-box;
 
      
   }
+   }
 `; 
 export const GigVenue = styled.div`
 box-sizing: border-box;
@@ -126,22 +128,24 @@ export const GigInfoContainer = styled.div`
 font-size: 16px;
     line-height: 28px;
     display: block;
-        position: relative;
+        position: absolute;
     height: auto;
-
+width:600px;
     
  
-    top:590px;;
+    top:350px;;
     left:50px;
     @media screen and (max-width: 769px){
        font-size: 6px;
     line-height: 18px;
-   
+   width:300px;
+   left:50px
    
    
 
      
   }
+  
 `; 
 export const Styles = styled.div`
 #card1{
@@ -154,12 +158,12 @@ export const Styles = styled.div`
     @media screen and (max-width: 769px){
         position:relaitve;
          width:16rem;
-  left:50px;
+  left:70px;
   top:55px;
-   
-   
+  
 
      
   }
+ 
 }
 `

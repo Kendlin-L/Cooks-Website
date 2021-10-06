@@ -14,10 +14,10 @@ height: 100%;
 position: relative;
 
 top: -100px;
-@media screen and (max-width: 769px){
+@media screen and (max-width: 1024px){
 
 
-
+  width: 100%;
 
      
   }
@@ -43,37 +43,38 @@ visibility:visible;
 }
 font-family: 'Montserrat', sans-serif;
 color: white;
-position: relative;
+position: absolute;
 font-size: 82px;
+display:flex;
 top:150px;
+left:300px;
 font-weight:1000;
-left:50px;
+
 @media screen and (max-width: 769px){
     font-weight:1000;
     font-size: 18px;
-    left:40px;
+    left:70px;
     width:300px;
 
      
   }
+  
 `; 
 export const CardContainer = styled.div`
-@media screen and (max-width: 769px){
-    font-weight:1000;
-    font-size: 22px;
-   
+
+ 
       
 
-     position:relative;
-    
+     position:absolute;
+     width:1550px;
+     left:170px;
      @media screen and (max-width: 769px){
 
-top:-150px;
-left:65px;
-  width:100px;
-     
+top:-100px;
+width:270px;
+left:85px;
   }
-   
+
   }`
 
 export const ImgBackground = styled.div`
@@ -165,19 +166,16 @@ background-attachment:fixed;
 
 width:100%;
 height: 1080px;
+
 background-color:#010101;
 position: relative;
 background-repeat:no-repeat;
 background-size: cover; 
 @media screen and (max-width: 769px){
-    font-weight:1000;
-    font-size: 22px;
-   
-   margin-right:-2px;
-height:2200px;
-  min-width:375px;
-     
+    
+    height:2100px;
   }
+ 
 
 
 `

@@ -9,22 +9,25 @@ visibility:visible;
 
 font-family: 'Montserrat', sans-serif;
 color: white;
-position: relative;
+position: absolute;
 font-size: 82px;
 top:100px;
 font-weight:1000;
-left: 170px;
+left: 370px;
+display:block;
  @media screen and (max-width: 769px){
         position:relaitve;
  font-size: 22px;
-  left:30px;
+  left:80px;
   top:55px;
   width:300px;
-   
+ 
    
 
      
   }
+
+ 
 `; 
 export const ImgBackground = styled.div`
 
@@ -47,22 +50,32 @@ position: relative;
 
      
   }
+  
+
+ 
+
+ 
 `; 
 export const MusicObj = styled.div`
-position:relative;
-left:50px;
+position:absolute;
+left:285px;
+top:100px;
+display:flex;
  @media screen and (max-width: 769px){
  
-        
+  display:inline-block;   
    
-  left:35px;
+  left:85px;
     top:100px;
-    width:100px;
+    width:270px;
    
    
 
      
   }
+ 
+  
+  
 ` 
 
 export const Styles = styled.div`
@@ -84,12 +97,13 @@ export const Styles = styled.div`
 
      
   }
+  
   }
   #card2{
      border:none;
       width:20rem;
-      left:450px;
-      top:16px;
+      left:135px;
+      top:350px;
       cursor:pointer;
        padding-bottom:1rem;
       background-color:transparent;
@@ -104,12 +118,13 @@ export const Styles = styled.div`
      
   }
   
+  
 }
 #card3{
   border:none;
    width:20rem;
-   left:890px;
-   bottom:320px;
+   left:250px;
+   top:350px;
   cursor:pointer;
     padding-bottom:1rem;
    background-color:transparent;
@@ -124,5 +139,6 @@ export const Styles = styled.div`
 
      
   }
+  
   }
 `

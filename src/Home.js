@@ -23,16 +23,12 @@ const Styles = styled.div`
 height:100%;
     #container1{
 
-    
+ 
 position:relative;
 top:350px;
 height:100%;
- left:45px;
- 
-@media screen and (max-width: 769px){
-   
-left:1px;
-}
+
+
 
 
 `; 
