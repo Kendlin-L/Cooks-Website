@@ -23,7 +23,7 @@ position: relative;
  @media screen and (max-width: 769px){
       
    height: 750px;
-   min-width:375px;
+  
 
      
   }

@@ -152,7 +152,15 @@ background-position:center;
 
 
 position: relative;
+@media screen and (max-width: 769px){
+       
+  background-position:center;
+  background-size:cover;
+background-attachment:scroll;
+ min-width:375px;
+    
 
+ }
 
 `; 
 export const FilmImg = styled.div`
@@ -192,8 +200,9 @@ height:1080px;
 
 position: relative;
 @media screen and (max-width: 769px){
-    
+  background-attachment:scroll;
       min-width:375px;
+      background-size:cover;
     }
 
 `; 
