@@ -3,30 +3,44 @@ import styled from 'styled-components';
 
 export const Header1 = styled.div`
 &::before{
-content:"CHECK OUT OUR MUSIC";
-visibility:visible;
-}
-
-font-family: 'Montserrat', sans-serif;
-color: white;
-position: absolute;
-font-size: 82px;
-top:100px;
-font-weight:1000;
-left: 370px;
-display:block;
- @media screen and (max-width: 769px){
-        position:relaitve;
- font-size: 22px;
-  left:80px;
-  top:55px;
-  width:300px;
- 
-   
-
-     
+  content:"CHECK OUT OUR MUSIC";
+  visibility:visible;
   }
-
+  
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 82px;
+  top:100px;
+  font-weight:1000;
+  left: 170px;
+  @media screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+ {
+    font-size: 50px;
+    top:150px;
+    font-weight:1000;
+    left:160px;
+}
+  @media screen and (min-width: 320px)
+    and (max-width: 800px)  {
+   
+      font-size: 22px;
+       left:40px;
+       top:55px;
+       width:300px;
+    }
+   
+    @media screen and (min-width: 414px)
+    and (max-width: 800px)  {
+      font-size: 22px;
+       left:60px;
+       top:55px;
+       width:300px;
+    }
+    
  
 `; 
 export const ImgBackground = styled.div`
@@ -57,19 +71,40 @@ position: relative;
  
 `; 
 export const MusicObj = styled.div`
-position:absolute;
-left:285px;
-top:100px;
+position:relative;
+left:50px;
 display:flex;
- @media screen and (max-width: 769px){
+@media screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  width:650px;
+ left:30px;
+ top:50px;
+  }
  
-  display:inline-block;   
+  @media screen and (min-width: 320px)
+  and (max-width: 800px)  {
+ 
+        
    
-  left:85px;
+  left:50px;
     top:100px;
-    width:270px;
+    width:100px;
    
    
+
+    display:inline-block;
+  }
+  @media screen and (min-width: 414px)
+  and (max-width: 800px)  {
+    left:70px;
+    top:100px;
+    width:100px
+  
+    display:inline-block;
+    }
+ 
 
      
   }

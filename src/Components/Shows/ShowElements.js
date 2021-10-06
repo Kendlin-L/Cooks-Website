@@ -5,7 +5,7 @@ export const Container1 = styled.div`
 position:absolute;
 bottom:400px;
 
-
+;
 `
 export const ImgBackground = styled.div`
 background-color:black;
@@ -41,25 +41,38 @@ min-width: 150px;
 `
 export const Header1 = styled.div`
 &::before{
-content:"CATCH US AT A SHOW";
-visibility:visible;
-}
-display:flex;
-font-family: 'Montserrat', sans-serif;
-color: white;
-position: absolute;
-font-size: 82px;
-top:100px;
-font-weight:1000;
-left: 400px;
-@media screen and (max-width: 769px){
-        
-   font-size: 22px;
-   left:85px;
-   width:250px;
-
-     
+  content:"CATCH US AT A SHOW";
+  visibility:visible;
   }
+  
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 82px;
+  top:100px;
+  font-weight:1000;
+  left: 190px;
+  @media screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  font-size: 62px;
+     left:150px;
+  
+}
+@media screen and (min-width: 320px)
+and (max-width: 800px) {
+          
+     font-size: 22px;
+     left:55px;
+     width:250px;
+  
+       
+    }
+    @media screen and (min-width: 414px)
+    and (max-width: 800px)  {
+      left:70px
+    }
   
 `; 
 export const GigDate = styled.div`
@@ -103,7 +116,17 @@ box-sizing: border-box;
     font-weight: bold;
     color:white;
     letter-spacing: .5px;
-    @media screen and (max-width: 769px){
+      @media screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+ 
+  font-size: 20px !important;
+   
+  
+}
+@media screen and (min-width: 320px)
+and (max-width: 800px)  {
       
    
    min-width: 50%;
@@ -135,16 +158,31 @@ width:600px;
  
     top:350px;;
     left:50px;
-    @media screen and (max-width: 769px){
+    @media screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+ 
+   width:380px;
+   
+  
+}
+
+@media screen and (min-width: 320px)
+and (max-width: 800px)  {
        font-size: 6px;
     line-height: 18px;
    width:300px;
-   left:50px
+   left:40px
    
    
 
      
   }
+  @media screen and (min-width: 414px)
+and (max-width: 800px)  {
+  left:50px
+}
   
 `; 
 export const Styles = styled.div`
@@ -155,12 +193,30 @@ export const Styles = styled.div`
       top:350px;
       padding-bottom:1rem;
       background-color:transparent;
-    @media screen and (max-width: 769px){
+      @media screen 
+      and (min-width: 768px) 
+      and (max-width: 1024px) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+       
+        width:32rem;
+ left:450px;
+
+         
+        
+      }
+      @media screen and (min-width: 320px)
+      and (max-width: 800px)  {
         position:relaitve;
          width:16rem;
-  left:70px;
+  left:50px;
   top:55px;
-  
+  @media screen and (min-width: 414px)
+    and (max-width: 800px)  {
+      position:relaitve;
+         width:16rem;
+  left:65px;
+  top:55px;
+    }
 
      
   }

@@ -9,7 +9,7 @@ export const HomeContainer = styled.div`
 width: 100%;
 height: 100%;
 
-
+background-color:black;
 
 position: relative;
 
@@ -25,8 +25,8 @@ top: -100px;
 `; 
 
 export const HomeBackground = styled.div`
-position:relative;
-
+position:absolute;
+width: 100%;
 
 @media screen and (max-width: 769px){
 
@@ -38,43 +38,81 @@ position:relative;
 
 export const Header1 = styled.div`
 &::before{
-content:"FOLLOW US ON INSTAGRAM";
-visibility:visible;
-}
-font-family: 'Montserrat', sans-serif;
-color: white;
-position: absolute;
-font-size: 82px;
-display:flex;
-top:150px;
-left:300px;
-font-weight:1000;
-
-@media screen and (max-width: 769px){
-    font-weight:1000;
-    font-size: 18px;
-    left:70px;
-    width:300px;
-
-     
+  content:"FOLLOW US ON INSTAGRAM";
+  visibility:visible;
   }
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 82px;
+  top:150px;
+  font-weight:1000;
+  left:50px;
+  @media screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+ {
+    font-size: 50px;
+    top:150px;
+    font-weight:1000;
+    left:120px;
+}
+  @media screen and (min-width: 320px)
+  and (max-width: 800px)  {
+      font-weight:1000;
+      font-size: 18px;
+      left:45px;
+      width:300px;
   
+       
+    }
+    
+    @media screen and (min-width: 414px)
+    and (max-width: 800px)  {
+      font-weight:1000;
+      font-size: 18px;
+      left:70px;
+      width:300px
+    }
+    @media screen and (max-width: 321px){
+      left:25px;
+             
+          }
+       
+ 
 `; 
 export const CardContainer = styled.div`
 
- 
-      
-
-     position:absolute;
-     width:1550px;
-     left:170px;
-     @media screen and (max-width: 769px){
-
-top:-100px;
-width:270px;
-left:85px;
-  }
-
+@media screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+position:relative;
+  top:-150px;
+  left:25px;
+    width:900px;
+       
+    }
+    @media screen and (min-width: 320px)
+  and (max-width: 800px)  {
+    position:relative;
+    top:-150px;
+    left:70px;
+      width:100px;
+  
+       
+    }
+    @media screen and (min-width: 414px)
+  and (max-width: 800px)  {
+    position:relative;
+    top:-150px;
+    left:100px;
+      width:100px;
+  
+       
+    }
+    
   }`
 
 export const ImgBackground = styled.div`

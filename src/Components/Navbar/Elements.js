@@ -10,7 +10,7 @@ export const Nav1 = styled.nav`
     text-decoration: none;
     display:flex;
     top:0;
-    position:absolute;
+  position:relative;
     transition: top 10.3s;
     transition-timing-function:ease-in;
     jusitfy-content: center;
