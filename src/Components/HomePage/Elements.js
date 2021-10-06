@@ -117,7 +117,7 @@ position:relative;
 
 export const ImgBackground = styled.div`
 background-color:black;
-background-attachment:scroll;
+
 background-image: url(${chefHat});
 background-repeat:no-repeat;
 background-size:contain;
@@ -169,7 +169,7 @@ background-repeat:no-repeat;
 background-size:cover;
 background-color:black;
 background-position:50% 40%;
-
+background-attachment:fixed;
 width:100%;
 height:1080px;
 

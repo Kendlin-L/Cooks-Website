@@ -105,19 +105,19 @@ height:40px;
     }
     &#ig{
    
-right:170px;
+right:190px;
     }
     &#fb{
    
-right:120px;
+right:140px;
     }
     &#yt{
    
-right:70px;
+right:90px;
     }
     &#spot{
    
-right:20px;
+right:40px;
     }
 
   `
