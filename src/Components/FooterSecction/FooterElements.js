@@ -13,6 +13,9 @@ position:relative;
 @media screen and (max-width:769px){
     display:none;
     
+
+
+    
 }
 
 
