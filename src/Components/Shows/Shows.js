@@ -19,7 +19,8 @@ export const Shows = () =>(
     <GigLocation>DUBLIN, IRELAND</GigLocation>
     </GigItem>
     <GigButtonsContainer>
-      <Button variant="outline-danger" >TICKETS</Button>
+      <Button variant="outline-danger"  href="https://www.eventbrite.ie/e/cooks-but-were-chefs-tickets-197805229767?ref=eios" >TICKETS</Button>
+      
     </GigButtonsContainer>
      
      <GigItem>
@@ -30,7 +31,7 @@ export const Shows = () =>(
      </GigItem>
 
        <GigButtonsContainer>
-      <Button variant="outline-danger" >TICKETS</Button>
+      <Button variant="outline-danger" href="https://www.eventbrite.ie/e/cooks-but-were-chefs-at-the-grand-social-tickets-193448879807?ref=eios" >TICKETS</Button>
     </GigButtonsContainer>
     </GigInfoContainer>
       <Card id="card1" >

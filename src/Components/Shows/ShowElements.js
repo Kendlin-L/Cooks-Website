@@ -220,12 +220,14 @@ left:270px;
 `; 
 export const Styles = styled.div`
 #card1{
+   
     border:none;
      width:36rem;
       left:116%;
       top:350px;
       padding-bottom:1rem;
       background-color:transparent;
+     
       @media screen 
       and (min-width: 768px) 
       and (max-width: 1024px) 
@@ -237,6 +239,12 @@ export const Styles = styled.div`
          
         
       }
+      @media screen 
+and (max-device-width: 1280px) 
+and (max-device-height: 800px) 
+{ 
+  left:50%;
+}
       @media screen and (min-width: 320px)
       and (max-width: 800px)  {
         position:relaitve;
@@ -253,12 +261,14 @@ export const Styles = styled.div`
 
      
   }
+ 
   @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
 and (-webkit-min-device-pixel-ratio: 1) {
   left:220px;
 }
+
 @media only screen 
 and (min-device-width: 1024px) 
 and (max-device-width: 1366px)
@@ -266,5 +276,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 top:-200px;
 
 }
+
+
+
 }
 `

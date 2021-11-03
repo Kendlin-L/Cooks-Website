@@ -22,7 +22,7 @@ const Styles = styled.div`
 
 height:100%;
     #container1{
-        display:flex;
+       
  
 position:relative;
 top:350px;

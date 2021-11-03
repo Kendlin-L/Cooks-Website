@@ -98,6 +98,8 @@ export const MusicObj = styled.div`
 position:relative;
 left:50px;
 display:flex;
+
+
 @media screen 
 and (min-width: 768px) 
 and (max-width: 1024px) 
@@ -106,6 +108,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
  left:30px;
  top:50px;
   }
+  
+  
  
   @media screen and (min-width: 320px)
   and (max-width: 800px)  {
@@ -120,6 +124,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     display:inline-block;
   }
+  
+  
   @media screen and (min-width: 414px)
   and (max-width: 800px)  {
     left:70px;
@@ -136,12 +142,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
     and (-webkit-min-device-pixel-ratio: 1) {
       left:225px;
   }
+  
+  
    @media only screen 
           and (min-device-width: 1024px) 
           and (max-device-width: 1366px)
           and (-webkit-min-device-pixel-ratio: 2) {
-            left:25px;
+            left:15px;
           }
+         
     
  
   
@@ -157,6 +166,12 @@ export const Styles = styled.div`
       top:350px;
       padding-bottom:1rem;
       background-color:transparent;
+      @media screen 
+  and (max-device-width: 1280px) 
+  and (max-device-height: 800px) 
+  { 
+    width:17rem;
+  }
     @media screen and (max-width: 769px){
         position:relaitve;
          width:16rem;
@@ -167,12 +182,15 @@ export const Styles = styled.div`
 
      
   }
+  
+  
   @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
     left:115px;
   }
+  
   }
   #card2{
      border:none;
@@ -182,6 +200,12 @@ export const Styles = styled.div`
       cursor:pointer;
        padding-bottom:1rem;
       background-color:transparent;
+      @media screen 
+  and (max-device-width: 1280px) 
+  and (max-device-height: 800px) 
+  { 
+    width:17rem;
+  }
     @media screen and (max-width: 769px){
         position:relaitve;
          width:16rem;
@@ -192,6 +216,8 @@ export const Styles = styled.div`
 
      
   }
+ 
+
   
   
 }
@@ -203,6 +229,12 @@ export const Styles = styled.div`
   cursor:pointer;
     padding-bottom:1rem;
    background-color:transparent;
+   @media screen 
+  and (max-device-width: 1280px) 
+  and (max-device-height: 800px) 
+  { 
+    width:17rem;
+  }
     @media screen and (max-width: 769px){
  position:relative;
         
@@ -214,12 +246,15 @@ export const Styles = styled.div`
 
      
   }
+ 
   @media only screen 
           and (min-device-width: 1024px) 
           and (max-device-width: 1366px)
           and (-webkit-min-device-pixel-ratio: 2) {
             left:155px;
           }
+        
+          
   
   }
 `

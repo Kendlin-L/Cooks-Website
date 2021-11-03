@@ -354,6 +354,7 @@ top:5px;
       text-decoration: none;
        padding: 0 5px;
     }
+    
     @media only screen 
     and (min-device-width: 1024px) 
     and (max-device-width: 1366px)
