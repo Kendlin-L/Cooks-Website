@@ -5,6 +5,7 @@ export const Header1 = styled.div`
 &::before{
   content:"CHECK OUT OUR MUSIC";
   visibility:visible;
+  
   }
   
   font-family: 'Montserrat', sans-serif;
@@ -40,7 +41,30 @@ export const Header1 = styled.div`
        top:55px;
        width:300px;
     }
-    
+  
+     @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      position: relative;
+      font-size: 22px;
+      top:100px;
+      font-weight:1000;
+      left: 220px;
+   
+  }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    left:10px;
+    text-align:center;
+  
+  font-size: 60px;
+  }
+ 
  
 `; 
 export const ImgBackground = styled.div`
@@ -106,8 +130,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
  
 
-     
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      left:225px;
   }
+   @media only screen 
+          and (min-device-width: 1024px) 
+          and (max-device-width: 1366px)
+          and (-webkit-min-device-pixel-ratio: 2) {
+            left:25px;
+          }
+    
  
   
   
@@ -132,7 +167,12 @@ export const Styles = styled.div`
 
      
   }
-  
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    left:115px;
+  }
   }
   #card2{
      border:none;
@@ -174,6 +214,12 @@ export const Styles = styled.div`
 
      
   }
+  @media only screen 
+          and (min-device-width: 1024px) 
+          and (max-device-width: 1366px)
+          and (-webkit-min-device-pixel-ratio: 2) {
+            left:155px;
+          }
   
   }
 `

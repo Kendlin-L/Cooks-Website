@@ -21,6 +21,7 @@ top: -100px;
 
      
   }
+ 
 
 `; 
 
@@ -28,11 +29,7 @@ export const HomeBackground = styled.div`
 position:absolute;
 width: 100%;
 
-@media screen and (max-width: 769px){
 
-
-     
-  }
 
 `; 
 
@@ -76,10 +73,30 @@ export const Header1 = styled.div`
       width:300px
     }
     @media screen and (max-width: 321px){
-      left:25px;
+      left:40px;
              
           }
-       
+          @media only screen 
+          and (min-device-width: 1024px) 
+          and (max-device-width: 1366px)
+          and (-webkit-min-device-pixel-ratio: 2) {
+            left:10px;
+            text-align:center;
+          }
+          @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      left:200px;
+            text-align:center;
+  }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    left:25px;
+   
+  } 
  
 `; 
 export const CardContainer = styled.div`
@@ -112,6 +129,21 @@ position:relative;
   
        
     }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      width:100%;
+      left:0;
+  }
+   
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    left:-20px;
+   
+  }
     
   }`
 
@@ -221,9 +253,24 @@ background-size: cover;
 @media screen and (max-width: 769px){
     
     height:2100px;
+    min-width:375px;
   }
  
+}
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  height:670px;
+  
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
+   height:1080px;
+  }
 
 `
 export const ChefHatContainer = styled.div`

@@ -22,7 +22,7 @@ const Styles = styled.div`
 
 height:100%;
     #container1{
-        
+        display:flex;
  
 position:relative;
 top:350px;
@@ -31,9 +31,11 @@ height:100%;
 left:45px;
  
 @media screen and (max-width: 769px){
-   
+ 
 left:1px;
 }
+ 
+  }
 
 
 `; 
@@ -60,7 +62,7 @@ export const Home = () =>(
             <Row>
           
                     <Col  xs={12} md={4} lg={3}  >
-                        <Card style={{border:"none", width:"13rem", cursor:"pointer",  paddingBottom:"1rem", backgroundColor:"transparent"}}>
+                        <Card  style={{border:"none", width:"13rem", cursor:"pointer",  paddingBottom:"1rem", backgroundColor:"transparent"}}>
                               <a href="https://www.instagram.com/p/B2kaUUDj1x5/" target="_blank"  rel="noopener noreferrer">
                             <Card.Img src={Dan}  />  
                             </a>

@@ -17,7 +17,12 @@ export const Container = styled.aside`
     top:${({isOpen})=>(isOpen? 0:'-100%')};
     @media screen and (max-width:769px){
     max-width:500px;
-    
+    @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    display: none;
+}
 }
 
 `
@@ -42,6 +47,12 @@ grid-template-rows:repeat(6,80px);
 @media screen and (max-width:480px){
     grid-template-rows:repeat(6,60px);
 
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    display: none;
 }
 `
 export const Slink = styled(LinkScroll)`

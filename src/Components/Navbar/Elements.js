@@ -71,10 +71,10 @@ height:40px;
      
       border-radius:25%;
     }
-    @media screen and (max-width: 769px){
-     display:none
-  }
-}
+   
+ 
+  
+
 
   `
     export const NavLinkRight = styled(LinkAbout)`
@@ -91,11 +91,12 @@ height:40px;
   top:15px;
   
     text-decoration: none;
+    
 
-    @media screen and (max-width: 769px){
-        display:none;
-       
-    }
+    
+  
+   
+    
     &:hover {
       color: #C0C0C0;
       transition: .3s;
@@ -119,7 +120,51 @@ right:90px;
    
 right:40px;
     }
+  
+    @media screen and (max-width: 769px){
+      display:none;
+     
+  }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    display: flex;
 
+    position:fixed;
+    cursor:pointer;
+   
+
+    color: #fff;
+    align-items:center;
+
+    font-size: 20px;
+  top:15px;
+  
+    text-decoration: none;
+    
+
+    &#ig{
+ 
+      right:150px;
+          }
+          &#fb{
+         
+      right:100px;
+          }
+          &#yt{
+         
+      right:50px;
+          }
+          &#spot{
+         
+      right:0px;
+          }
+}
+   
+          
+  
+  
   `
 
   export const Container = styled.div`
@@ -138,6 +183,7 @@ right:40px;
   
   export const MobileView = styled.div`
   display: none;
+  
   @media screen and (max-width: 768px){
     display:block;
        position:fixed:
@@ -162,6 +208,12 @@ right:40px;
        font-size: 20px;
        color:white;
    }
+   @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    display: none;
+}
     `
   export const NavMenu = styled.ul`
   display: flex;
@@ -174,6 +226,23 @@ right:40px;
       display:none;
      
   }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    position:fixed;
+    display: flex;
+    align-items:center;
+    list-style:none;
+    text-align:center;
+   margin-right:-22px;
+}
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  position:relative;
+}
     `
 export const PageLinks = styled(LinkScroll)`
     display: flex;
@@ -201,6 +270,44 @@ export const PageLinks = styled(LinkScroll)`
     &.active{
       border-bottom: 3px #fff;
     }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      display: flex;
+ 
+    position:relative;
+    cursor:pointer;
+   
+    height:100%;
+    color: #fff;
+    align-items:center;
+ right:50px;
+    font-size: 15px;
+  top:5px;
+    font-weight:400;
+    text-decoration: none;
+     padding: 0 5px;
+    }
+    @media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  display: flex;
+ 
+  position:relative;
+  cursor:pointer;
+ 
+  height:100%;
+  color: #fff;
+  align-items:center;
+right:50px;
+  font-size: 20px;
+top:5px;
+  font-weight:400;
+  text-decoration: none;
+   padding: 0 16px;
+}
       `
       export const AboutLink = styled(LinkAbout)`
     display: flex;
@@ -228,4 +335,43 @@ export const PageLinks = styled(LinkScroll)`
     &.active{
       border-bottom: 3px #fff;
     }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      display: flex;
+ 
+      position:relative;
+      cursor:pointer;
+     
+      height:100%;
+      color: #fff;
+      align-items:center;
+   right:50px;
+      font-size: 15px;
+    top:5px;
+      font-weight:400;
+      text-decoration: none;
+       padding: 0 5px;
+    }
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      display: flex;
+     
+      position:relative;
+      cursor:pointer;
+     
+      height:100%;
+      color: #fff;
+      align-items:center;
+    right:50px;
+      font-size: 20px;
+    top:5px;
+      font-weight:400;
+      text-decoration: none;
+       padding: 0 16px;
+    }
 `
+

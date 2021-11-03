@@ -23,10 +23,16 @@ position: relative;
  @media screen and (max-width: 769px){
       
    height: 750px;
-  
+  min-width:375px;
 
      
   }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  height: 1366px;
+}
 
 `; 
 export const GigButtonsContainer=styled.div`
@@ -36,7 +42,7 @@ min-width: 150px;
 
         top:-55px;
         position:relative;
-        
+       
 
 `
 export const Header1 = styled.div`
@@ -72,6 +78,20 @@ and (max-width: 800px) {
     @media screen and (min-width: 414px)
     and (max-width: 800px)  {
       left:70px
+    }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      left:220px;
+      text-align:center;
+    }
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      left:10px;
+      text-align:center;
     }
   
 `; 
@@ -183,6 +203,19 @@ and (max-width: 800px)  {
 and (max-width: 800px)  {
   left:50px
 }
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  left:205px;
+}
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 1) {
+left:270px;
+
+}
   
 `; 
 export const Styles = styled.div`
@@ -220,6 +253,18 @@ export const Styles = styled.div`
 
      
   }
- 
+  @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  left:220px;
+}
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 1) {
+top:-200px;
+
+}
 }
 `
